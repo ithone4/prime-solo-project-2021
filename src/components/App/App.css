@@ -6,6 +6,7 @@ body,
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #491000;
   margin: 0px;
 }
 
@@ -29,11 +30,11 @@ Button
 .btn {
   display: inline-block;
   padding: 10px 20px;
-  border-color: #014041;
+  border-color: #491000;
   border-width: 1px 1px 3px;
   border-radius: 4px;
-  background-color: #00acb0;
-  color: #f8f8f8;
+  background-color: #FF673E;
+  color: #491000;
   font-size: 1.1rem;
   outline: 0;
   cursor: pointer;
@@ -55,7 +56,7 @@ Button
 }
 
 .btn:hover {
-  background-color: #008183;
+  background-color: #FDE1C5;
   text-decoration: none;
 }
 
@@ -63,17 +64,17 @@ Button
 .btn_asLink {
   padding: 0;
   border-width: 0;
-  border-bottom: 1px solid #444;
+  border-bottom: 1px solid #491000;
   border-radius: 0;
   background: none;
   font: inherit;
-  color: #444;
+  color: #491000;
 }
 
 .btn_asLink:hover {
   background-color: transparent;
-  border-color: #008183;
-  color: #008183;
+  border-color: #FF673E;
+  color: #491000;
 }
 
 /* --------------------------------------------------------------------------------
@@ -84,10 +85,10 @@ Alert
   box-sizing: border-box;
   padding: 15px 10px;
   margin: 15px 0;
-  border: 2px solid #e01616;
-  background-color: #efefef;
+  border: 2px solid #FF673E;
+  background-color: #FDE1C5;
   border-radius: 3px;
-  color: #e01616;
+  color: #491000;
   font-size: 0.8rem;
 }
 
@@ -101,7 +102,7 @@ Form Treatment
   max-width: 100%;
   padding: 25px;
   margin: 0 auto 20px;
-  background-color: #efefef;
+  background-color:#FDE1C5;
   border-radius: 3px;
   box-shadow: 0 1px 2px rgb(0, 0, 0, 0.4);
 }
