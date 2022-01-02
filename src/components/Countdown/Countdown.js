@@ -1,21 +1,7 @@
 import React, { Component } from "react";
-// import "../App.css";
+import "../App.css";
 
-// This is one of our simplest components
-// It doesn't have local state
-// It doesn't dispatch any redux actions or display any part of redux state
-// or even care what the redux state is
-
-// function InfoPage() {
-//   return (
-//     <div className="container">
-//       <h2>List of Excuses:</h2>
-//     </div>
-//   );
-//   }
-
-
-class InfoPage extends Component {
+class Countdown extends Component {
   state = {
     timerOn: false,
     timerStart: 0,
@@ -133,4 +119,4 @@ class InfoPage extends Component {
   }
 }
 
-export default InfoPage;
+export default Countdown;

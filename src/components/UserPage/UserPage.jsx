@@ -9,8 +9,8 @@ function UserPage() {
   return (
     <div className="container">
       <p>Your ID is: {user.id}</p>
-      <h2>Thank you {user.username} for registering to Grandma Died.</h2>
-      <p>We will be sending the excuse by text to the number provied: <h2>{user.cell}</h2> </p>
+      <h2>Thank you {user.username} for using Grandma Died.</h2>
+      <p>Just a reminder we will send the excuse by text to the number provied: <h2>{user.cell}</h2> </p>
       <p>Triple check that number. We don't want to text the wrong person.</p>
 
     <LogOutButton className="btn" />
